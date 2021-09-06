@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+</head>
+<style>
+    body{
+        background-image:url(html2.jpg);
+        background-repeat:fixed;
+        width: 100%;
+    }
+    .container{
+        background-color: white;
+        background-image:url(html2.jpg);
+        align-items: center;
+        width: 50%;
+        padding: 10%;
+    }
+</style>
+<body>
+    <div class="container">
+        <form action="/action_page.php">
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Re-Enter Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Plz Re-EnterEnter password" name="pwd">
+              </div>  
+            <div class="checkbox">
+              <label><input type="checkbox" name="remember"> Remember me</label>
+            </div>
+            <a class="btn btn-success" href="index.html">Submit</a>
+          </form>
+    </div>
+</body>
+</html>

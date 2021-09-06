@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 20vh;
+    text-align: center;
+}
+.navbar-style{
+    box-shadow: 0 5px 10px #efefef;
+}
+.logo{
+    height: 100px;
+    padding: 2px 10px;
+}
+li a{
+    color:#333;
+}
+.big-text{
+    font-size: 52px;
+    margin: 20px 0;
+    color: darkorange;
+}
+a.btn{
+    margin: 30px 10px;
+    width: 150px;
+    padding:10px;
+    border-radius: 20px;
+}
+a.btn-first{
+    background-color: darkorange;
+    color: #fff;
+}
+a.btn-second{
+    background: transparent;
+    border: 1px solid darkorange;
+    color:#333;
+}
+.banner-info,.banner-image{
+    margin: 30px 0;
+
+}
+h{
+    padding: 2%;
+    width: 10%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
